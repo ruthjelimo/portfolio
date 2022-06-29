@@ -2,6 +2,24 @@
   display: flex;
   list-style-type: none;
   justify-content: space-around;
-  margin-left: 70%;
+  margin-left: 60%;
   
+}
+.home >img{
+  margin-left: 10%;
+}
+.skills >li{
+  list-style-type: none;
+}
+.skills >img{
+justify-content: space-around;
+
+}
+.angular{
+  margin-left: 30%;
+  margin-top: -18%;
+}
+.django{
+  margin-left: 60%;
+  margin-top: -13%;
 }

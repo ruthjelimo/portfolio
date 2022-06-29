@@ -1,6 +1,6 @@
-const  About= () => {
-    return ( 
-    <div className="about">
+const Bout = () => {
+    return ( <div className="about">
+        <p>
         <p>
             I am a sofware engineer with skills both in front-end and back-end and design skills<br>
             </br>.I am passionate about tech, since I believe that in tech no one is restricted one can explore<br>
@@ -11,11 +11,8 @@ const  About= () => {
             to help me learn and grow as a developer
         </p>
        
-    </div> 
-        
-
-
-    );
+        </p>
+    </div> );
 }
  
-export default About;
+export default Bout;
