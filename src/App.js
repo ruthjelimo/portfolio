@@ -5,7 +5,7 @@ import Skills from './skills';
 import Project from './projects';
 import Contact from './contact';
 
-// import Bout from './bout';
+
 
 
 function App() {
