@@ -74,3 +74,34 @@ justify-content: space-around;
   margin-left: 80%;
   margin-top: -16%;
 }
+.project button{
+  display: flex;
+ 
+ 
+  
+}
+.delani{
+  margin-left: 30%;
+  margin-top: 40px;
+}
+.awards{
+  margin-left: 80%;
+  margin-top: -5%;
+}
+.hood{
+  margin-left: 50%;
+  margin-top: -50px;
+ 
+}
+.quote{
+  margin-left: 80% ;
+  margin-top: -60px;
+}
+.insta{
+  margin-left: 30%;
+  padding-top: 5%;
+}
+.letuce{
+  margin-left:50% ;
+  margin-top: -5%;
+}
