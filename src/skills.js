@@ -9,36 +9,53 @@ import js from '..//src/Images/js.jpeg';
 const skills = () => {
     return (  
         <div className="skills">
-           <p>These are the skills that I am comfortable working with</p> 
+           <p><b>These are the skills that I am comfortable working with:</b></p> 
+           <div className="react">
+           <img src={React} width="200" alt="react" />
+        <h4>React</h4>
+
+           </div>
           
-             <img src={React} width="200" alt="react" />
-        <li>React</li>
+          
+          
         <div className="angular">
         <img src={Angular} width="200" alt="angular" />
-        <li>Angular</li>
+        <h4>Angular</h4>
         </div>
         <div className="django">
         <img src={django} width="200" alt="django" />
-        <li>Django</li>
+        <h4>Django</h4>
 
         </div>
-       
-       
+        <div className="flask">
         <img src={Flask} width="200" alt="django" />
-        <li>Flask</li>
-       
-       
-        <img src={python} width="200" alt="python" />
-        <li>Python</li>
-       
-        <img src={Html} width="200" alt="html" />
-        <li>HTML</li>
-        <img src={js} width="200" alt="js" />
-        <li>Javascript</li>
-       
-        <img src={Postgress} width="200" alt="psql" />
-        <li>Postgress</li>
+        <h4>Flask</h4>
+
         </div>
+        <div className="python">
+
+        <img src={python} width="200" alt="python" />
+        <h4>Python</h4>
+        </div>
+        <div className="html">
+
+        <img src={Html} width="200" alt="html" />
+        <h4>HTML</h4>
+
+        </div>
+        <div className="javascript">
+        <img src={js} width="200" alt="js" />
+        <h4>Javascript</h4>
+       
+
+        </div>
+        <div className="postgress">
+        <img src={Postgress} width="200" alt="psql" />
+        <h4>Postgress</h4>
+        </div>
+
+
+ </div>
     
     );
 }
